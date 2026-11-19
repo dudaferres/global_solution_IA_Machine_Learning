@@ -1,0 +1,26 @@
+{
+  "modelo": "regressao_logistica",
+  "variaveis": [
+    "umidade_solo_pct",
+    "chuva_72h_mm",
+    "intensidade_mm_h",
+    "inclinacao_graus"
+  ],
+  "intercepto": -6.963539,
+  "pesos": {
+    "umidade_solo_pct": 0.030379,
+    "chuva_72h_mm": 0.013262,
+    "intensidade_mm_h": 0.01993,
+    "inclinacao_graus": 0.409207
+  },
+  "limiares": {
+    "atencao": 0.3,
+    "alto": 0.7,
+    "inclinacao_critica_graus": 10.0
+  },
+  "metricas_teste": {
+    "auc_roc": 0.9787,
+    "recall_limiar_atencao": 0.7582,
+    "precisao_limiar_atencao": 0.8118
+  }
+}
